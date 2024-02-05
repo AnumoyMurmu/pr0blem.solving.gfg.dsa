@@ -64,7 +64,9 @@ class Solution{
             }else{
                 l=mid+1;
             }
-        }else{
+        }
+        //right sorted
+        else{
             
             if(A[mid]<=key && key<=A[h]){
                 l=mid+1;
