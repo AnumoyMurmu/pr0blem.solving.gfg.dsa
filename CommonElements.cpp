@@ -7,7 +7,9 @@ class Solution
        vector <int> commonElements (int A[], int B[], int C[], int n1, int n2, int n3)
         {
             //code here.
-            map<int,int> mpa;map<int,int>mpb;vector<int> result; set<int> mpc;
+    map<int,int> mpa;            map<int,int>mpb;
+    vector<int> result; 
+    set<int> mpc;
             for(int i=0;i<n1;i++)
             {
               mpa[A[i]]++;  
@@ -20,12 +22,12 @@ class Solution
             
             for(int k=0;k<n3;k++)
             {
-                if((mpa.find(C[k]) != mpa.end()) && (mpb.find(C[k]) !=mpb.end()))
-                {
-                    if(mpc.find(C[k]) == mpc.end())
+                if((mpa.find(C[k]) != mpa.end()) && (mpb.find(C[k]) !=mpb.end())){
+                    
+       if(mpc.find(C[k]) == mpc.end())
                     {
-                     result.push_back(C[k]); 
-                     mpc.insert(C[k]);
+                          result.push_back(C[k]); 
+             mpc.insert(C[k]);
                     }
                 }
             }
