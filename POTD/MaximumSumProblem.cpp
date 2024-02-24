@@ -33,7 +33,26 @@
 
 // soln:
 
-
+class Solution
+{
+    public:
+   int solve( int n)
+        {
+            if(n ==0) return 0;
+        
+            int ans1 = max(solve(n/2), n/2);
+            int ans2 = max(solve(n/3), n/3);
+            int ans3 = max(solve(n/4), n/4);
+            
+            return max((ans1 + ans2 + ans3),n);
+        }
+        
+        int maxSum(int n)
+        {
+            return solve(n);
+        }
+        
+};
 
 
 
