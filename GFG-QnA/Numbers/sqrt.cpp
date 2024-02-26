@@ -1,4 +1,4 @@
-Square root of a number
+/* Square root of a number
 EasyAccuracy: 54.03%Submissions: 175K+Points: 2
 90% Refund Offer Ending Tonight! Start Today! 
 
@@ -39,7 +39,7 @@ Constraints:
 
 
 
-soln:
+soln: */
 
 // Function to find square root
 // x: element to find square root
