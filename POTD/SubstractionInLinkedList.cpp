@@ -1,4 +1,4 @@
-Subtraction in Linked List
+/* Subtraction in Linked List
 HardAccuracy: 12.94%Submissions: 60K+Points: 8
 Three 90 Challenge Extended On Popular Demand! Don't Miss Out Now 
 
@@ -40,7 +40,7 @@ Constraints:
 0 <= values represented by the linked lists < 10m
 
 
-soln:
+soln: */
 
 //User function Template for C++
 
