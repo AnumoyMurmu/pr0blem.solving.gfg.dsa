@@ -42,6 +42,23 @@
 
 # soln:
 
+#User function Template for python3
 
+class Solution:
+    def allPairs(self, A, B, N, M, X):
+        # Your code goes here 
+        
+        pair=[]
+        
+        A.sort()
+        B.sort()
+        
+        for i in A:
+            for j in B:
+                if ((i+j)==X):
+                    pair.append((i,j))   #tuple concept
+        
+        return pair
+                    
 
 
