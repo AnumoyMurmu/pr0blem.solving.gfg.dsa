@@ -1,51 +1,51 @@
-Largest Element in Array
-BasicAccuracy: 67.48%Submissions: 213K+Points: 1
-Internship Alert!
-Become an SDE Intern by topping this monthly leaderboard! 
+// Largest Element in Array
+// BasicAccuracy: 67.48%Submissions: 213K+Points: 1
+// Internship Alert!
+// Become an SDE Intern by topping this monthly leaderboard! 
 
-banner
-Given an array A[] of size n. The task is to find the largest element in it.
+// banner
+// Given an array A[] of size n. The task is to find the largest element in it.
  
 
-Example 1:
+// Example 1:
 
-Input:
-n = 5
-A[] = {1, 8, 7, 56, 90}
-Output:
-90
-Explanation:
-The largest element of given array is 90.
+// Input:
+// n = 5
+// A[] = {1, 8, 7, 56, 90}
+// Output:
+// 90
+// Explanation:
+// The largest element of given array is 90.
  
 
-Example 2:
+// Example 2:
 
-Input:
-n = 7
-A[] = {1, 2, 0, 3, 2, 4, 5}
-Output:
-5
-Explanation:
-The largest element of given array is 5.
+// Input:
+// n = 7
+// A[] = {1, 2, 0, 3, 2, 4, 5}
+// Output:
+// 5
+// Explanation:
+// The largest element of given array is 5.
  
 
-Your Task:  
-You don't need to read input or print anything. Your task is to complete the function largest() which takes the array A[] and its size n as inputs and returns the maximum element in the array.
-
- 
-
-Expected Time Complexity: O(N)
-Expected Auxiliary Space: O(1)
+// Your Task:  
+// You don't need to read input or print anything. Your task is to complete the function largest() which takes the array A[] and its size n as inputs and returns the maximum element in the array.
 
  
 
-Constraints:
-1 <= n<= 103
-0 <= A[i] <= 103
-Array may contain duplicate elements. 
+// Expected Time Complexity: O(N)
+// Expected Auxiliary Space: O(1)
+
+ 
+
+// Constraints:
+// 1 <= n<= 103
+// 0 <= A[i] <= 103
+// Array may contain duplicate elements. 
 
 
-soln:
+// soln:
 
 //User function Template for C++
 
