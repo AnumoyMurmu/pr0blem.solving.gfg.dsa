@@ -31,3 +31,20 @@
 # soln:
 
 
+#User function Template for python3
+
+class Solution:
+    def longestCommonPrefix(self, arr, n):
+        # code here
+        
+        arr.sort()
+        res=""
+        
+        for i in range(min(len(arr[0]), len(arr[n-1]))):
+            if arr[0][i]==arr[n-1][i]:
+                res+=arr[0][i]
+            else:
+                break
+    
+        return  res if res else "-1"
+
