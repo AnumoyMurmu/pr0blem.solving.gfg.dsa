@@ -45,3 +45,13 @@
 # 1<=N<=1000
 
 # soln:
+
+#User function Template for python3
+class Solution:
+    def orGate (self, arr, N):
+        # code here 
+       count = 0
+       for i in range(N):
+           count = count | arr[i]
+       return count
+
