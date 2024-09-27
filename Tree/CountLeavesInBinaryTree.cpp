@@ -1,7 +1,7 @@
 /*
 Count Leaves in Binary Tree
 Difficulty: BasicAccuracy: 76.44%Submissions: 111K+Points: 1
-Given a Binary Tree of size N, You have to count leaves in it. For example, there are two leaves in following tree
+Given a Binary Tree of size N, You have to count leaves in it. For example, there are two leaves in following tree.
 
         1
      /      \
